@@ -34,6 +34,8 @@ def validar_contrasenya(contrasenya):
         if c in simbols:
             simbol = True
 
+        #if majuscula == True and minuscula == Trues.....
+
     return majuscula and minuscula and digit and simbol
 
    
