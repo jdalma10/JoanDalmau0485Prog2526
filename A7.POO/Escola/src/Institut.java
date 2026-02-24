@@ -46,9 +46,16 @@ public class Institut {
 		
 		String retorn = this.nom + "\n";
 		
-		for(int i= 0; i<num;i++) {
-			retorn += this.llistaAlumnes[i].toString()+"\n";
+		for (Alumne a:llistaAlumnes) {
+			if(a != null) {
+				retorn += a.toString()+"\n";
+			}
+			
 		}
+		
+	/*	for(int i= 0; i<num;i++) {
+			retorn += this.llistaAlumnes[i].toString()+"\n";
+		}*/
 		
 		return retorn;
 	}
