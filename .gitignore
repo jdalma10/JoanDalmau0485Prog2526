@@ -1,0 +1,14 @@
+# Ignore everything by default
+*
+
+# Keep this gitignore file
+!.gitignore
+
+# Allow directories so nested rules can apply
+!*/
+
+# Allow Java source under A9.Base de dades relacionals only
+!A9.Base de dades relacionals/
+!A9.Base de dades relacionals/**/
+!A9.Base de dades relacionals/**/*.java
+!A9.Base de dades relacionals/*.java
